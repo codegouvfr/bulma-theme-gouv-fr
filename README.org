@@ -1,0 +1,31 @@
+* Style data.gouv.fr à partir de bulma.io
+
+Ce dépôt propose un fichier ~style.scss~ s'appuyant sur [[https://bulma.io][bulma.io]] pour
+générer une feuille de style reprenant [[https://github.com/etalab/template.data.gouv.fr][template.data.gouv.fr]].
+
+* Générer style.css
+
+1. Installez sass 
+
+   : ~$ gem install sass
+
+2. Téléchargez [[https://github.com/jgthms/bulma/releases/download/0.7.5/bulma-0.7.5.zip][bulma-0.7.5.zip]]
+
+3. Clonez le dépôt
+
+4. Dans le dépôt, générez ~style.css~
+
+   : ~$ sass --sourcemap=none style.scss:style.css
+
+* Contribution
+
+Vos contributions sont les bienvenues pour compléter l'adaptation de
+template.data.gouv.fr à bulma.io.  Merci d'avance !
+
+* Licence
+
+Le code source de ce dépôt est publié sous licence [[https://opensource.org/licenses/mit-license.php][MIT]].
+
+* Auteur
+
+Etalab/DINSIC 2019.
