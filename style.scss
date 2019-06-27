@@ -43,11 +43,12 @@ $text: $darkest-grey;
 // Update some of Bulma's component variables
 $body-background-color: $white;
 $background: $lighter-grey;
-$control-border-width: 2px;
-$input-border-color: transparent;
-$input-shadow: none;
+// $control-border-width: 2px;
+// $input-border-color: transparent;
+// $input-shadow: none;
 
 @import "bulma-0.7.5/sass/utilities/_all";
+@import "bulma-0.7.5/sass/form/_all";
 @import "bulma-0.7.5/sass/base/_all";
 @import "bulma-0.7.5/sass/components/_all";
 @import "bulma-0.7.5/sass/elements/_all";
