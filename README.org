@@ -3,14 +3,16 @@
 Ce dépôt propose un fichier ~style.scss~ s'appuyant sur [[https://bulma.io][bulma.io]] pour
 générer une feuille de style reprenant [[https://github.com/etalab/template.data.gouv.fr][template.data.gouv.fr]].
 
-* Pour générer un fichier style.css
+* Pour générer un fichier css
 
 1. Installez sass : =~$ gem install sass=
 2. Téléchargez [[https://github.com/jgthms/bulma/releases/download/0.7.5/bulma-0.7.5.zip][bulma-0.7.5.zip]]
 3. Clonez le dépôt et allez dans =bulma-theme-gouv-fr=
-4. Générez ~style.css~ : =~$ sass --sourcemap=none style.scss:style.css=
+4. Générez ~style.css~ : =~$ sass --sourcemap=none style.scss:docs/datagouv-bulma.css=
 
 * Aperçu
+
+Voir https://etalab.github.io/bulma-theme-gouv-fr
 
 [[file:capture.png]]
 
