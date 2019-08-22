@@ -38,7 +38,7 @@ $warning: $orange;
 $danger: $red;
 $dark: $black;
 $text: $darkest-grey;
-       
+
 // $widescreen-enabled: false;
 // $fullhd-enabled: false;
 
@@ -68,22 +68,67 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    font-family: "Evolventa", "Trebuchet MS", sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.125em;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.25em;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1.125em;
+}
 h6 {
-  margin-top: 0;
-  font-family: "Evolventa", "Trebuchet MS", sans-serif;
+    font-size: 1em;
+    
 }
 
 .hero-body {
+    background-color: white;
+}
+
+.section {
+    padding: 5em 0;
+    box-sizing: border-box;
+}
+
+.section-grey {
     background-color: $lightest-grey;
 }
 
-.hero.is-primary .title {
-    color: $darkest-grey;
+.section-dark {
+    background-color: black;
+    color: white;
+}
+
+.section-dark * {
+    color: white;
+}
+
+.section-color {
+    background-color: $primary;
+    color: white;
+}
+
+.section-color * {
+    color: white;
+}
+
+.hero.is-primary .title { 
+    color: $darkest-grey; 
 }
 
 .footer {
@@ -91,25 +136,34 @@ h6 {
     color: white;
 }
 
-.h1 {
-    font-size: 2em;
-    line-height: 1.125em;
+.button {
+    border-radius: 3px;
+    border: 0px;
 }
 
-.card { 
+.card {
     border-radius: 2px;
     border: 1px solid var($light-grey);
 }
 
-a,
-button {
-  cursor: pointer;
+a, button {
+    cursor: pointer;
 }
 
-a,
-a:hover,
-a:focus,
-a:visited,
-a:active {
-  color: $primary;
+a, a:hover, a:focus, a:visited, a:active {
+    color: $primary;
 }
+
+.navbar-end a.navbar-item {
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 0.4em 0.8em;
+    margin: 0.2em 0.4em;
+}
+
+.navbar-end a.navbar-item:hover {
+    background-color: $lighter-grey;
+    color: black;
+}
+
