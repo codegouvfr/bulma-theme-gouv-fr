@@ -63,45 +63,6 @@ $background: $lighter-grey;
 @import url('https://template.data.gouv.fr/fonts/Evolventa/Evolventa-Regular.ttf');
 @import url('https://template.data.gouv.fr/fonts/Evolventa/Evolventa-Bold.ttf');
 
-@font-face {
-  font-family: 'datagouvfr';
-  src:  url('https://etalab.github.io/bulma-theme-gouv-fr/fonts/datagouvfr.eot');
-  src:  url('https://etalab.github.io/bulma-theme-gouv-fr/fonts/datagouvfr.eot') format('embedded-opentype'),
-    url('https://etalab.github.io/bulma-theme-gouv-fr/fonts/datagouvfr.ttf') format('truetype'),
-    url('https://etalab.github.io/bulma-theme-gouv-fr/fonts/datagouvfr.woff') format('woff'),
-    url('https://etalab.github.io/bulma-theme-gouv-fr/fonts/datagouvfr.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'datagouvfr' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-mail4:before {
-  content: "\ea86";
-}
-.icon-facebook2:before {
-  content: "\ea91";
-}
-.icon-twitter1:before {
-  content: "\ea96";
-}
-.icon-github:before {
-  content: "\eab0";
-}
-
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -171,18 +132,7 @@ h6 {
 }
 
 .footer {
-    background-color: #1c1c1c;
-    color: white;
-}
-
-.footer li {    
-    display: inline;
-    color: white;
-}
-
-.footer i {
-    font-size: 16px;
-    line-height: 24px;
+    background-color: black;
     color: white;
 }
 
@@ -216,3 +166,4 @@ a, a:hover, a:focus, a:visited, a:active {
     background-color: $lighter-grey;
     color: black;
 }
+
