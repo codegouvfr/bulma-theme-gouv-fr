@@ -207,6 +207,14 @@ a, a:hover, a:focus, a:visited, a:active {
     color: $primary;
 }
 
+.footer a {
+    color: $lightest-grey;
+}
+
+.footer a:hover {
+    color: white;
+}
+
 .navbar-end a.navbar-item {
     text-decoration: none;
     color: black;
