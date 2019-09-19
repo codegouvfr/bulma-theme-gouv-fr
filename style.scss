@@ -93,11 +93,15 @@ h5 {
 }
 h6 {
     font-size: 1em;
-    
+
 }
 
 .hero-body {
     background-color: white;
+}
+
+.hero-body p {
+    color: black;
 }
 
 .section {
@@ -127,8 +131,12 @@ h6 {
     color: white;
 }
 
-.hero.is-primary .title { 
-    color: $darkest-grey; 
+.hero.is-primary .title {
+    color: $darkest-grey;
+}
+
+.hero.is-primary .subtitle {
+    color: $darkest-grey;
 }
 
 .footer {
@@ -212,6 +220,10 @@ a, a:hover, a:focus, a:visited, a:active {
 }
 
 .footer a:hover {
+    color: white;
+}
+
+.footer strong {
     color: white;
 }
 
