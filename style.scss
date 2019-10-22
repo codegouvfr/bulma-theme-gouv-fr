@@ -1,5 +1,35 @@
 @charset "utf-8";
 
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("fonts/Source Sans Pro/SourceSansPro-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("fonts/Source Sans Pro/SourceSansPro-Bold.otf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("fonts/Source Sans Pro/SourceSansPro-It.otf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Evolventa";
+  src: url("fonts/Evolventa/Evolventa-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Evolventa";
+  src: url("fonts/Evolventa/Evolventa-Bold.ttf");
+  font-weight: 800;
+}
+
 // Set your brand colors
 $blue: #0053b3;
 $light-blue: #006be6;
@@ -56,12 +86,6 @@ $background: $lighter-grey;
 @import "bulma-0.7.5/sass/elements/_all";
 @import "bulma-0.7.5/sass/grid/_all";
 @import "bulma-0.7.5/sass/layout/_all";
-
-@import url('https://template.data.gouv.fr/fonts/Source%20Sans%20Pro/SourceSansPro-Regular.otf');
-@import url('https://template.data.gouv.fr/fonts/Source%20Sans%20Pro/SourceSansPro-Bold.otf');
-@import url('https://template.data.gouv.fr/fonts/Source%20Sans%20Pro/SourceSansPro-It.otf');
-@import url('https://template.data.gouv.fr/fonts/Evolventa/Evolventa-Regular.ttf');
-@import url('https://template.data.gouv.fr/fonts/Evolventa/Evolventa-Bold.ttf');
 
 body {
     -webkit-font-smoothing: antialiased;
