@@ -11,8 +11,8 @@ URL :
 * Éditer et générer un fichier css
 
 1. Installez sass : =~$ gem install sass=
-2. Téléchargez [[https://github.com/jgthms/bulma/releases/download/0.7.5/bulma-0.7.5.zip][bulma-0.7.5.zip]]
-3. Clonez le dépôt et allez dans =bulma-theme-gouv-fr=
+2. Clonez le dépôt et allez dans =bulma-theme-gouv-fr=
+3. Téléchargez [[https://github.com/jgthms/bulma/releases/download/0.8.0/bulma-0.8.0.zip][bulma-0.8.0.zip]] à la racine du dépôt
 4. Générez ~style.css~ : =~$ sass --sourcemap=none style.scss:docs/datagouv-bulma.css=
 
 * Aperçu
@@ -32,4 +32,4 @@ Le code source de ce dépôt est publié sous licence [[https://opensource.org/l
 
 * Auteur
 
-2019 Etalab/DINSIC, Bastien Guerry
+2019-2020 Etalab/DINSIC, Bastien Guerry
