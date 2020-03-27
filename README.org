@@ -13,7 +13,7 @@ URL :
 1. Installez sass : =~$ gem install sass=
 2. Clonez le dépôt et allez dans =bulma-theme-gouv-fr=
 3. Téléchargez [[https://github.com/jgthms/bulma/releases/download/0.8.0/bulma-0.8.0.zip][bulma-0.8.0.zip]] à la racine du dépôt
-4. Générez ~style.css~ : =~$ sass --sourcemap=none style.scss:docs/datagouv-bulma.css=
+4. Générez ~style.css~ : =~$ sass --sourcemap=none --style compressed style.scss:docs/datagouv-bulma.css=
 
 * Aperçu
 
