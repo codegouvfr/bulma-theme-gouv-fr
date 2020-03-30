@@ -60,7 +60,7 @@ $family-sans-serif: "Source Sans Pro", Arial, sans-serif;
 $grey-dark: $darkest-grey;
 $grey-light: $light-grey;
 
-$primary: $blue;
+$primary: $white;
 $link: $dark-red;
 $info: $light-blue;
 $success: $green;
@@ -127,12 +127,6 @@ h5 {
 }
 h6 {
     font-size: 1em;
-
-}
-
-.hero-body {
-    background-color: $white;
-    color: $black;
 }
 
 .section {
@@ -154,20 +148,12 @@ h6 {
 }
 
 .section-color {
-    background-color: $primary;
+    background-color: $blue;
     color: $white;
 }
 
 .section-color * {
     color: $white;
-}
-
-.hero.is-primary .title {
-    color: $darkest-grey;
-}
-
-.hero.is-primary .subtitle {
-    color: $darkest-grey;
 }
 
 .footer {
@@ -240,10 +226,6 @@ h6 {
 
 a, button {
     cursor: pointer;
-}
-
-a, a:hover, a:focus, a:visited, a:active {
-    color: $primary;
 }
 
 .footer a {
