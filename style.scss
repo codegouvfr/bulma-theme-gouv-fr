@@ -131,11 +131,8 @@ h6 {
 }
 
 .hero-body {
-    background-color: white;
-}
-
-.hero-body p {
-    color: black;
+    background-color: $white;
+    color: $black;
 }
 
 .section {
@@ -148,21 +145,21 @@ h6 {
 }
 
 .section-dark {
-    background-color: black;
-    color: white;
+    background-color: $black;
+    color: $white;
 }
 
 .section-dark * {
-    color: white;
+    color: $white;
 }
 
 .section-color {
     background-color: $primary;
-    color: white;
+    color: $white;
 }
 
 .section-color * {
-    color: white;
+    color: $white;
 }
 
 .hero.is-primary .title {
@@ -174,13 +171,13 @@ h6 {
 }
 
 .footer {
-    background-color: black;
-    color: white;
+    background-color: $black;
+    color: $white;
 }
 
 .footer h1 {
-    background-color: black;
-    color: white;
+    background-color: $black;
+    color: $white;
 }
 
 .footer ul {
@@ -200,7 +197,7 @@ h6 {
 .footer__social .icon {
   width: 35px;
   height: 35px;
-  fill: white;
+  fill: $white;
 }
 
 .footer__links {
@@ -214,12 +211,12 @@ h6 {
 }
 
 .footer__links a {
-  color: white;
+  color: $white;
   text-decoration: none;
 }
 
 .footer__links a:hover {
-  background: darkgrey;
+  background: $dark-grey;
 }
 
 .footer__logo {
@@ -254,16 +251,16 @@ a, a:hover, a:focus, a:visited, a:active {
 }
 
 .footer a:hover {
-    color: white;
+    color: $white;
 }
 
 .footer strong {
-    color: white;
+    color: $white;
 }
 
 .navbar-end a.navbar-item {
     text-decoration: none;
-    color: black;
+    color: $black;
     border-radius: 3px;
     padding: 0.4em 0.8em;
     margin: 0.2em 0.4em;
@@ -271,5 +268,5 @@ a, a:hover, a:focus, a:visited, a:active {
 
 .navbar-end a.navbar-item:hover {
     background-color: $lighter-grey;
-    color: black;
+    color: $black;
 }
