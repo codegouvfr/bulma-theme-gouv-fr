@@ -52,6 +52,9 @@ $red: #d63626;
 $dark-red: #ab2b1e;
 $light-red: #efaca6;
 
+$footer-background-color: $black;
+$footer-color: $white;
+
 // Update Bulma's global variables
 // $family-sans-serif: "Nunito", sans-serif;
 
@@ -61,13 +64,17 @@ $grey-dark: $darkest-grey;
 $grey-light: $light-grey;
 
 $primary: $white;
-$link: $dark-red;
 $info: $light-blue;
 $success: $green;
 $warning: $orange;
 $danger: $red;
 $dark: $black;
 $text: $darkest-grey;
+
+$link: $blue;
+$link-hover: $dark-blue;
+$link-focus: $dark-blue;
+$link-active: $dark-blue;
 
 $size-1: 3rem;
 $size-2: 2.5rem;
@@ -156,11 +163,6 @@ h6 {
     color: $white;
 }
 
-.footer {
-    background-color: $black;
-    color: $white;
-}
-
 .footer h1 {
     background-color: $black;
     color: $white;
@@ -196,13 +198,9 @@ h6 {
   margin-bottom: .8em;
 }
 
-.footer__links a {
+.footer__links a, .footer__links a:hover {
   color: $white;
   text-decoration: none;
-}
-
-.footer__links a:hover {
-  background: $dark-grey;
 }
 
 .footer__logo {
@@ -228,12 +226,8 @@ a, button {
     cursor: pointer;
 }
 
-.footer a {
+.footer a, .footer a:hover {
     color: $lightest-grey;
-}
-
-.footer a:hover {
-    color: $white;
 }
 
 .footer strong {
