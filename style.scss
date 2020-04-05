@@ -1,34 +1,8 @@
 @charset "utf-8";
 
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("fonts/Source Sans Pro/SourceSansPro-Regular.otf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("fonts/Source Sans Pro/SourceSansPro-Bold.otf");
-  font-weight: 800;
-}
-
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("fonts/Source Sans Pro/SourceSansPro-It.otf");
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Evolventa";
-  src: url("fonts/Evolventa/Evolventa-Regular.ttf");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Evolventa";
-  src: url("fonts/Evolventa/Evolventa-Bold.ttf");
-  font-weight: 800;
-}
+@import "../fonts/Evolventa/index.css";
+@import "../fonts/Inter/index.css";
+@import "../fonts/Source Sans Pro/index.css";
 
 // Set your brand colors
 $blue: #0053b3;
@@ -58,7 +32,7 @@ $footer-color: $white;
 // Update Bulma's global variables
 // $family-sans-serif: "Nunito", sans-serif;
 
-$family-sans-serif: "Source Sans Pro", Arial, sans-serif;
+$family-sans-serif: "Inter", "Trebuchet MS", sans-serif;
 
 $grey-dark: $darkest-grey;
 $grey-light: $light-grey;
@@ -111,7 +85,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    font-family: "Evolventa", "Trebuchet MS", sans-serif;
+    font-family: "Inter", "Trebuchet MS", sans-serif;
 }
 
 h1 {
@@ -245,4 +219,8 @@ a, button {
 .navbar-end a.navbar-item:hover {
     background-color: $lighter-grey;
     color: $black;
+}
+
+pre {
+    margin-top: 1em;
 }
