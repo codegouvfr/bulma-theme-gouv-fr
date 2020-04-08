@@ -3,6 +3,7 @@
 @import "../fonts/Evolventa/index.css";
 @import "../fonts/Inter/index.css";
 @import "../fonts/Source Sans Pro/index.css";
+@import "../fonts/Marianne/index.css";
 
 // Set your brand colors
 $blue: #0053b3;
@@ -85,7 +86,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    font-family: "Inter", "Trebuchet MS", sans-serif;
+    font-family: "Marianne", "Inter", "Trebuchet MS", sans-serif;
 }
 
 h1 {
