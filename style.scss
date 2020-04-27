@@ -6,13 +6,13 @@
 @import "../fonts/Marianne/index.css";
 
 // Set your brand colors
-$blue: #0053b3;
-$light-blue: #006be6;
-$dark-blue: #003b80;
-$lighter-blue: #b4e1fa;
+$blue: #0B6BA8;
+$light-blue: #e6eaf5;
+$dark-blue: #000091;
+$lighter-blue: #0B6BA8;
 $white: #fff;
-$lightest-grey: #fafbfc;
-$lighter-grey: #ebeff3;
+$lightest-grey: #eee;
+$lighter-grey: rgba(143, 126, 53, 0.1);
 $light-grey: #c9d3df;
 $grey: #adb9c9;
 $dark-grey: #8393a7;
@@ -22,10 +22,12 @@ $black: #1c1c1c;
 $green: #03bd5b;
 $light-green: #daf5e7;
 $orange: #ff9947;
-$light-orange: #fff0e4;
+$light-orange: rgba(0, 0, 0, 0.25);
 $red: #d63626;
 $dark-red: #ab2b1e;
 $light-red: #efaca6;
+
+$navbar-item-img-max-height: 8em;
 
 $footer-background-color: $black;
 $footer-color: $white;
@@ -71,13 +73,13 @@ $background: $lighter-grey;
 // $input-border-color: transparent;
 // $input-shadow: none;
 
-@import "bulma-0.8.0/sass/utilities/_all";
-@import "bulma-0.8.0/sass/form/_all";
-@import "bulma-0.8.0/sass/base/_all";
-@import "bulma-0.8.0/sass/components/_all";
-@import "bulma-0.8.0/sass/elements/_all";
-@import "bulma-0.8.0/sass/grid/_all";
-@import "bulma-0.8.0/sass/layout/_all";
+@import "bulma-0.8.2/sass/utilities/_all";
+@import "bulma-0.8.2/sass/form/_all";
+@import "bulma-0.8.2/sass/base/_all";
+@import "bulma-0.8.2/sass/components/_all";
+@import "bulma-0.8.2/sass/elements/_all";
+@import "bulma-0.8.2/sass/grid/_all";
+@import "bulma-0.8.2/sass/layout/_all";
 
 body {
     -webkit-font-smoothing: antialiased;
@@ -117,7 +119,7 @@ h6 {
 }
 
 .section-grey {
-    background-color: $lightest-grey;
+    background-color: $lighter-grey;
 }
 
 .section-dark {
@@ -218,8 +220,7 @@ a, button {
 }
 
 .navbar-end a.navbar-item:hover {
-    background-color: $lighter-grey;
-    color: $black;
+    background-color: $light-blue;
 }
 
 pre {
