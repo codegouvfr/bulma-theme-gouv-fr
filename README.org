@@ -15,7 +15,7 @@ URL :
 3. Allez dans le nouveau répertoire =bulma-theme-gouv-fr=
 4. Téléchargez la dernière version de [[https://bulma.io/][bulma]]
 5. Dézipper-la dans un répertoire =bulma=
-6. Générez ~style.css~ : =~$ sass --sourcemap=none --style compressed style.scss:docs/datagouv-bulma.css=
+6. Générez ~style.css~ : =~$ sass --no-source-map --style=compressed style.scss:docs/datagouv-bulma.css=
 
 * Aperçu
 
