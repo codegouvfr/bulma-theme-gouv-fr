@@ -6,42 +6,45 @@
 @import "../fonts/Marianne/index.css";
 
 // Set your brand colors
-$blue: #7F7FC8;
-$light-blue: #9A9AFF;
+$black: #1e1e1e;
+$blue: #6a6af4;
+$cyan: #417DC4;
 $dark-blue: #000091;
-$lighter-blue: #E5E5F4;
-$white: #fff;
-$lightest-grey: #F0F0F0;
-$lighter-grey: #E7E7E7;
-$light-grey: #CECECE;
-$grey: #9C9C9C;
 $dark-grey: #6A6A6A;
+$dark-red: #c9191e;
 $darker-grey: #383838;
 $darkest-grey: #2A2A2A;
-$black: #1e1e1e;
 $green: #008941;
+$grey: #9C9C9C;
+$light-blue: #cacafb;
 $light-green: #00AC8C;
-$orange: #FF6F4C;
-$light-orange: #FF9940;
-$red: #E1000F;
-$dark-red: #E10600;
-$light-red: #E1000F;
+$light-grey: #CECECE;
+$light-orange: #FF732C;
+$light-red: #f95c5e;
+$lighter-blue: #f5f5fe;
+$lighter-grey: #E7E7E7;
+$lightest-grey: #F0F0F0;
+$orange: #E4794A;
+$red: #e1000f;
+$turquoise: #8585f6;
+$white: #fff;
+$yellow: #FFE552;
 
-$navbar-item-img-max-height: 8em;
+// $navbar-item-img-max-height: 8em;
 
-$footer-background-color: $black;
-$footer-color: $white;
+// $footer-background-color: $black;
+// $footer-color: $white;
 
 // Update Bulma's global variables
 // $family-sans-serif: "Nunito", sans-serif;
 
 $family-sans-serif: "Inter", "Trebuchet MS", sans-serif;
 
-$grey-dark: $darkest-grey;
-$grey-light: $light-grey;
+// $grey-dark: $darkest-grey;
+// $grey-light: $light-grey;
 
 $primary: $white;
-$info: $light-blue;
+$info: $dark-blue;
 $success: $green;
 $warning: $orange;
 $danger: $red;
@@ -52,6 +55,8 @@ $link: $blue;
 $link-hover: $dark-blue;
 $link-focus: $dark-blue;
 $link-active: $dark-blue;
+
+$body-size: 16px;
 
 $size-1: 3rem;
 $size-2: 2.5rem;
@@ -67,8 +72,8 @@ $sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7;
 // $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
-$body-background-color: $white;
-$background: $lighter-grey;
+// $body-background-color: $white;
+// $background: $lighter-grey;
 // $control-border-width: 2px;
 // $input-border-color: transparent;
 // $input-shadow: none;
@@ -87,142 +92,142 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-}
+// h1, h2, h3, h4, h5, h6 {
+//     margin-top: 0;
+// }
 
-h1 {
-    font-size: 2em;
-    line-height: 1.125em;
-}
-h2 {
-    font-size: 1.75em;
-    line-height: 1.25em;
-}
-h3 {
-    font-size: 1.5em;
-    line-height: 1.5em;
-}
-h4 {
-    font-size: 1.25em;
-}
-h5 {
-    font-size: 1.125em;
-}
-h6 {
-    font-size: 1em;
-}
+// h1 {
+//     font-size: 2em;
+//     line-height: 1.125em;
+// }
+// h2 {
+//     font-size: 1.75em;
+//     line-height: 1.25em;
+// }
+// h3 {
+//     font-size: 1.5em;
+//     line-height: 1.5em;
+// }
+// h4 {
+//     font-size: 1.25em;
+// }
+// h5 {
+//     font-size: 1.125em;
+// }
+// h6 {
+//     font-size: 1em;
+// }
 
-.section {
-    padding: 3em 1em;
-    box-sizing: border-box;
-}
+// .section {
+//     padding: 3em 1em;
+//     box-sizing: border-box;
+// }
 
-.section-grey {
-    background-color: $lighter-grey;
-}
+// .section-grey {
+//     background-color: $lighter-grey;
+// }
 
-.section-dark {
-    background-color: $black;
-    color: $white;
-}
+// .section-dark {
+//     background-color: $black;
+//     color: $white;
+// }
 
-.section-dark * {
-    color: $white;
-}
+// .section-dark * {
+//     color: $white;
+// }
 
-.section-color {
-    background-color: $blue;
-    color: $white;
-}
+// .section-color {
+//     background-color: $blue;
+//     color: $white;
+// }
 
-.section-color * {
-    color: $white;
-}
+// .section-color * {
+//     color: $white;
+// }
 
-.footer h1 {
-    background-color: $black;
-    color: $white;
-}
+// .footer h1 {
+//     background-color: $black;
+//     color: $white;
+// }
 
-.footer ul {
-  list-style-type: none;
-  padding: 0;
-}
+// .footer ul {
+//   list-style-type: none;
+//   padding: 0;
+// }
 
-.footer__social {
-  margin-top: 1em;
-}
+// .footer__social {
+//   margin-top: 1em;
+// }
 
-.footer__social li {
-  display: inline;
-  margin-right: 1em;
-}
+// .footer__social li {
+//   display: inline;
+//   margin-right: 1em;
+// }
 
-.footer__social .icon {
-  width: 35px;
-  height: 35px;
-  fill: $white;
-}
+// .footer__social .icon {
+//   width: 35px;
+//   height: 35px;
+//   fill: $white;
+// }
 
-.footer__links {
-  margin: 0;
-  line-height: 2em;
-}
+// .footer__links {
+//   margin: 0;
+//   line-height: 2em;
+// }
 
-.footer__links h2 {
-  margin-top: 0;
-  margin-bottom: .8em;
-}
+// .footer__links h2 {
+//   margin-top: 0;
+//   margin-bottom: .8em;
+// }
 
-.footer__links a, .footer__links a:hover {
-  color: $white;
-  text-decoration: none;
-}
+// .footer__links a, .footer__links a:hover {
+//   color: $white;
+//   text-decoration: none;
+// }
 
-.footer__logo {
-  width: 300px;
-  height: auto;
-}
+// .footer__logo {
+//   width: 300px;
+//   height: auto;
+// }
 
-.footer__logo img {
-  max-height: 60px;
-}
+// .footer__logo img {
+//   max-height: 60px;
+// }
 
-.button {
-    border-radius: 3px;
-    border: 0px;
-}
+// .button {
+//     border-radius: 3px;
+//     border: 0px;
+// }
 
-.card {
-    border-radius: 2px;
-    border: 1px solid var($light-grey);
-}
+// .card {
+//     border-radius: 2px;
+//     border: 1px solid var($light-grey);
+// }
 
-a, button {
-    cursor: pointer;
-}
+// a, button {
+//     cursor: pointer;
+// }
 
-.footer a, .footer a:hover {
-    color: $lightest-grey;
-}
+// .footer a, .footer a:hover {
+//     color: $lightest-grey;
+// }
 
-.footer strong {
-    color: $white;
-}
+// .footer strong {
+//     color: $white;
+// }
 
-.navbar-end a.navbar-item {
-    text-decoration: none;
-    color: $black;
-    border-radius: 3px;
-    padding: 0.4em 0.8em;
-    margin: 0.2em 0.4em;
-}
+// .navbar-end a.navbar-item {
+//     text-decoration: none;
+//     color: $black;
+//     border-radius: 3px;
+//     padding: 0.4em 0.8em;
+//     margin: 0.2em 0.4em;
+// }
 
-.navbar-end a.navbar-item:hover {
-    background-color: $light-blue;
-}
+// .navbar-end a.navbar-item:hover {
+//     background-color: $light-blue;
+// }
 
-pre {
-    margin-top: 1em;
-}
+// pre {
+//     margin-top: 1em;
+// }
