@@ -6,12 +6,12 @@ générer une feuille de style reprenant [[https://github.com/etalab/template.da
 Pour utiliser le fichier css produit, vous pouvez pointer vers cette
 URL :
 
-: https://etalab.github.io/bulma-theme-gouv-fr/datagouv-bulma.css
+: https://codegouvfr.github.io/bulma-theme-gouv-fr/datagouv-bulma.css
 
 * Éditer et générer un fichier css
 
 1. Installez sass : =~$ gem install sass=
-2. Clonez le dépôt : =~$ git clone https://github.com/etalab/bulma-theme-gouv-fr.git=
+2. Clonez le dépôt : =~$ git clone https://github.com/codegouvfr/bulma-theme-gouv-fr.git=
 3. Allez dans le nouveau répertoire =bulma-theme-gouv-fr=
 4. Téléchargez la dernière version de [[https://bulma.io/][bulma]]
 5. Dézipper-la dans un répertoire =bulma=
@@ -19,7 +19,7 @@ URL :
 
 * Aperçu
 
-Voir https://etalab.github.io/bulma-theme-gouv-fr pour une page web d'exemple.
+Voir https://codegouvfr.github.io/bulma-theme-gouv-fr pour une page web d'exemple.
 
 [[file:capture.png]]
 
